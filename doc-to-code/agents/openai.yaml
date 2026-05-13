@@ -1,0 +1,20 @@
+interface:
+  display_name: "Doc to Code"
+  short_description: "Build patent proof code and GUI."
+  default_prompt: "Use $doc-to-code to convert my patent documents into rigorous code, Conda environment setup, test samples, runtime evidence, and a unique GUI frontend."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "word-expert"
+      description: "Optional preferred DOCX reader when available. Useful for patent drafts, comments, tables, tracked changes, and embedded evidence."
+    - type: "mcp"
+      value: "pdf-mcp-pro"
+      description: "Optional preferred PDF reader when available. Useful for patent text, claims, figures, tables, OCR output, and page-level references."
+    - type: "mcp"
+      value: "fetch"
+      description: "Recommended for fetching official docs or source pages when external lookup is explicitly needed."
+    - type: "mcp"
+      value: "duckduckgo"
+      description: "Recommended for web search when current public information or source discovery is explicitly needed."
+# Required skill dependency: figma-generate-design
+# This is not an MCP server. Install the figma-generate-design skill from openai/skills if missing.

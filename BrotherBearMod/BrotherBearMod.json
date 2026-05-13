@@ -1,0 +1,11 @@
+{
+  "id": "BrotherBearMod",
+  "name": "熊二 - 熊出没",
+  "author": "BearStudio",
+  "description": "加入了来自《熊出没》的角色——可爱的熊二！\n拥有40张角色卡牌（含6张多人联机卡牌），8件新遗物，4瓶新药水。\n核心机制：蜂蜜资源系统——通过攻击积累蜂蜜，释放强力技能。\n特殊规则：污浊药水不可对商人使用。",
+  "version": "v1.0.0",
+  "has_pck": true,
+  "has_dll": true,
+  "dependencies": [ "BaseLib" ],
+  "affects_gameplay": true
+}
